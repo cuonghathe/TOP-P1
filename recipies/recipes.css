@@ -1,12 +1,57 @@
+:root{
+  --text-color: orange;
+  --box-color:rgb(168, 159, 142);
+}
+
+*{
+  margin: 0;
+}
+
+div{
+  background-color: var(--box-color);
+  margin: 0 10px ;
+  padding: 10px;
+  border: 1px solid;
+}
+
+html{
+  font-size: 3vw;
+  color:black;
+}
+
 h1{
   text-align: center;
   margin:30px;
+  font-size: 2rem;
 }
+
+h1,h3{
+  color: var(--text-color);
+}
+
+.link{
+  display: block;
+  margin: 10px;
+  height: 5vh;
+  width: 10vw;
+  font-size: 70%;
+  margin-left: 87%;
+}
+
+.link:hover{
+  color: brown;
+}
+
+
+
+
 
 img{
   display: block;
   margin-left: auto;
   margin-right: auto;
-  height:250px;
-  width: 300px;
+  height:35%;
+  width: 35%;
 }
+
+
