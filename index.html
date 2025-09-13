@@ -4,10 +4,37 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href = "./index.css">
+  <link rel="stylesheet" href = './icon/themify-icons/themify-icons.css'/>
   <title>TOP-P1</title>
 </head>
 <body>
-  <h1 class = 'header'>Odin Recipes</h1>
+  <div id="header-box">
+    <ul class="nav">
+      <li><a href="" id = 'header'>Odin Recipes</a></li>
+      <li><a href="">About us</a></li>
+      <li><a href="">Books</a>
+      <ul class="subnav">
+        <li><a href="">Best Seller</a></li>
+        <li><a href="">Chef's Choices</a></li>
+        <li><a href="">New</a></li>
+        <li><a href="">Popular</a></li>
+      </ul>
+      </li>
+      <li><a href="">Recipes</a>
+          <ul class="subnav">
+            <li><a href="">Hot</a></li>
+            <li><a href="">Cold</a></li>
+            <li><a href="">Spicy</a></li>
+          </ul>
+      </li>
+    </ul>
+
+  <!--search button area-->
+    <div class="search-button"><i class="search-icon ti-search"></i></div>
+  </div>
+
+  
+
   <img id="frontImage" src="./image/money_satsutaba2.png" alt="Money">
   <a href="./recipies/hard_boiled_egg.html" target="_blank" rel = "noopener noreferer" ><h4>hard_boiled_egg</h4></a>
   <a href="./recipies/scramble_egg copy.html" target="_blank" rel ="noopener noreferer"><h4>scramble_egg</h4></a>
@@ -30,6 +57,22 @@
       <td>12</td>
     </tr>
   </table>
+
+
+ <div class="textbox">
+  <input type="number" placeholder="your age">
+  <input type="text" placeholder="your name">
+ </div>
+
+
+<div id="footer">
+  <ul class="contact">
+    <li><h3>Contact:</h3></li>
+    <li><a href="">email@gmail.com</a></li>
+    <li>092384904</li>
+    <li>This is our location: Edas,wwe,qo,d</li>
+  </ul>
+</div>
 
 </body>
 </html>
